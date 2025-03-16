@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  height: 112px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 19px;
+  transition: 0.5s;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+li:hover {
+  color: #d21617;
+}
+
+#logo {
+  width: 150px;
+  height: auto;
+}
+
+#Contato {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#Contato form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.titulo-comentario {
+  text-align: center;
+  font-size: 2rem;
+  color: red;
+  margin-bottom: 30px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #d21617;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+button:hover {
+  transform: scale(1.02);
+  color: black;
+  background-color: white;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+footer {
+  height: 300px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+span {
+  color: #fff;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.footer-navigation {
+  display: none;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

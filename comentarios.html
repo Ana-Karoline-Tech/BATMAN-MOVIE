@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./foto.css" media="" />
+    <title>Comentários</title>
+    <link rel="stylesheet" href="comentarios.css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="./img/logo-batman-header.jfif" />
+      <nav>
+        <ul>
+          <a href="./index.html">
+            <li>Home</li>
+          </a>
+          <a href="./contato.html">
+            <li>Contato</li>
+          </a>
+          <a href="./fotos.Html">
+            <li>Fotos</li>
+          </a>
+          <a href="./comentarios.html">
+            <li>Comentários</li>
+          </a>
+          <a href="./Cadastro-de-ingressos.html">
+            <li>
+              <a href="./Cadastro-de-ingressos.html">
+                <li>Compra de ingressos</li>
+              </a>
+            </li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+    <h2 class="titulo-comentario">DEPOIMENTOS DE ALGUNS TELESPECTADORES</h2>
+    <div id="Depoimentos" class="container">
+      <div class="conteudo">
+        <!-- Depoimento 1 -->
+        <div class="foto-cliente">
+          <img
+            src="img/testemunho/cliente-Maria.jpg"
+            class="circulo-vermelho"
+            alt="Maria Silva"
+          />
+        </div>
+        <div class="testemunho-cliente">
+          <p>O filme foi incrível! A atuação do Batman foi impressionante.</p>
+          <small class="nome-cliente">Maria Silva</small>
+        </div>
+      </div>
+
+      <!-- Depoimento 2 -->
+   
+      <div class="conteudo">
+        <div class="foto-cliente">
+          <img
+            src="img/testemunho/cliente-Anaaa.jpg"
+            class="circulo-vermelho"
+            alt="Ana Costa"
+          />
+        </div>
+        <div class="testemunho-cliente">
+          <p>Adorei a trilha sonora e os efeitos especiais. Recomendo!</p>
+          <small class="nome-cliente">Ana Costa</small>
+        </div>
+      </div>
+    
+
+    <!-- Depoimento 3 -->
+    
+      <div class="conteudo">
+        <div class="foto-cliente">
+          <img
+            src="img/testemunho/cliente-Carlos.jpg"
+            class="circulo-vermelho"
+            alt="Carlos Nobrega"
+          />
+        </div>
+        <div class="testemunho-cliente">
+          <p>O filme tem uma narrativa envolvente e cenas de ação incríveis!</p>
+          <small class="nome-cliente">Carlos Nobrega</small>
+        </div>
+      </div>
+    
+    <!-- Depoimento 4 -->
+    <div class="conteudo">
+      <div class="foto-cliente">
+        <img
+          src="img/testemunho/cliente-Joao.jpg"
+          class="circulo-vermelho"
+          alt="João Ribeiro"
+        />
+      </div>
+      <div class="testemunho-cliente">
+        <p>Adorei a profundidade dos personagens. O Batman está melhor do que nunca!</p>
+        <small class="nome-cliente">João Ribeiro</small>
+      </div>
+    </div>
+    <!-- Depoimento 5 -->
+    <div class="conteudo">
+      <div class="foto-cliente">
+        <img
+          src="img/testemunho/cliente-Luiza.jpg"
+          class="circulo-vermelho"
+          alt="Luiza Cavalcante"
+        />
+      </div>
+      <div class="testemunho-cliente">
+        <p>O visual do filme é impressionante. Gotham City nunca pareceu tão real!</p>
+        <small class="nome-cliente">Luiza Cavalcante</small>
+      </div>
+    </div>
+    <!-- Depoimento 6 -->
+    <div class="conteudo">
+      <div class="foto-cliente">
+        <img
+          src="img/testemunho/jovem-Patrick.jpg"
+          class="circulo-vermelho"
+          alt="Patrick Pascoal"/>
+      </div>
+      
+      <div class="testemunho-cliente">
+        <p>O filme equilibra bem ação e drama. Uma obra-prima do cinema moderno!</p>
+        <small class="nome-cliente">Patrick Pascoal</small>
+      </div>
+    </div>
+
+   
+
+  </main>
+
+  <h2 class="testemunho-envio">DEIXE SEU DEPOIMENTO ABAIXO</h2>
+  <div class="depoimentos-cadastro">
+  <form action="#" method="POST">
+    <div class="campo">
+      <label for="nome"><strong>Nome</strong></label>
+      <input type="text" name="nome" id="nome" required />
+    </div>
+    
+    <div class="campo">
+      <label for="Sobrenome"><strong>Sobrenome</strong></label>
+      <input type="text" name="Sobrenome" id="Sobrenome" required />
+    </div>
+
+    <div class="campo">
+      <label for="email"><strong>Email</strong></label>
+      <input type="email" name="email" id="email" required />
+    </div>
+
+    <div class="campo">
+      <label for="file">Envie uma foto sua</label>
+      <input style="display: block" id="file" type="file" name="file" />
+    </div>
+    
+    <div class="campo">
+      <label for="range">Grau de satisfação</label>
+      <input style="display: block" id="range" type="range" name="range" />
+    </div>
+
+    <div class="campo">
+      <label for="experiencia"
+        ><strong>Conte sua experiência com o filme:</strong></label
+      >
+      <textarea id="experiencia" name="experiencia" rows="6"></textarea>
+    </div>
+
+    <button type="submit" class="botao">Enviar</button>
+  </div>
+</div>
+</form>
+  
+
+    
+
+    Comentários
+    <footer>
+      <img style="object-fit: contain" id="logo" src="img/logo-batman-footer.jfif" />
+      <span>Todos os direitos reservados ©</span>
+      <span>Desenvolvido por: Ana Karoline Ribeiro.</span>
+    
+      <nav class="footer-navigation">
+        <ul class="foorer-list">
+          <a href="./index.html">
+            <li>Home</li>
+          </a>
+          <a href="./contato.html">
+            <li>Contato</li>
+          </a>
+          <a href="./fotos.Html">
+            <li>Fotos</li>
+          </a>
+          <a href="./comentarios.html">
+            <li>Comentários</li>
+          </a>
+          <a href="./Cadastro-de-ingressos.html">
+            <li>Compra de ingressos</li>
+          </a>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compra de ingressos</title>
+    <link rel="stylesheet" href="./cadastro-de-ingressos.css" media="" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="./img/logo-batman-header.jfif" />
+      <nav>
+        <ul>
+          <a href="./index.html">
+            <li>Home</li>
+          </a>
+          <a href="./contato.html">
+            <li>Contato</li>
+          </a>
+          <a href="./fotos.Html">
+            <li>Fotos</li>
+          </a>
+          <a href="./comentarios.html">
+            <li>Comentários</li>
+          </a>
+          <a href="./Cadastro-de-ingressos.html">
+            <li>
+              <a href="./Cadastro-de-ingressos.html">
+                <li>Compra de ingressos</li>
+              </a>
+            </li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="form-container">
+      <h1 id="titulo">Compra de ingressos</h1>
+      <p id="subtitulo">Complete suas informações</p>
+
+      <form>
+        <div class="campo">
+          <label for="nome"><strong>Nome</strong></label>
+          <input type="text" name="nome" id="nome" required />
+        </div>
+
+        <div class="campo">
+          <label for="Sobrenome"><strong>Sobrenome</strong></label>
+          <input type="text" name="Sobrenome" id="Sobrenome" required />
+        </div>
+
+        <div class="campo">
+          <label for="email"><strong>Email</strong></label>
+          <input type="email" name="email" id="email" required />
+        </div>
+
+        <div class="campo">
+          <label><strong>Forma de pagamento</strong></label>
+          <div class="radio-group">
+            <label>
+              <input type="radio" name="pagamento" value="Pix" checked /> Pix
+            </label>
+            <label>
+              <input type="radio" name="pagamento" value="Débito" /> Débito
+            </label>
+            <label>
+              <input type="radio" name="pagamento" value="Crédito" /> Crédito
+            </label>
+          </div>
+        </div>
+
+        <div class="campo">
+          <label for="poltrona"><strong>Horário</strong></label>
+          <select id="poltrona" required>
+            <option value="" disabled selected>Selecione</option>
+            <option>08:30 às 11:30</option>
+            <option>13:30 às 16:30</option>
+            <option>18:30 às 21:30</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label for="poltrona"><strong>Poltrona</strong></label>
+          <select id="poltrona" required>
+            <option value="" disabled selected>Selecione</option>
+            <option>1ª Fileira</option>
+            <option>2ª Fileira</option>
+            <option>3ª Fileira</option>
+            <option>4ª Fileira</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label><strong>Cor da poltrona</strong></label>
+          <div class="checkbox-group">
+            <div class="checkbox-item">
+              <input type="checkbox" id="amarelo" name="cor" value="Amarelo" />
+              <label for="amarelo">Amarelo</label>
+            </div>
+            <div class="checkbox-item">
+              <input type="checkbox" id="verde" name="cor" value="Verde" />
+              <label for="verde">Verde</label>
+            </div>
+            <div class="checkbox-item">
+              <input type="checkbox" id="azul" name="cor" value="Azul" />
+              <label for="azul">Azul</label>
+            </div>
+            <div class="checkbox-item">
+              <input type="checkbox" id="branco" name="cor" value="Branco" />
+              <label for="branco">Branco</label>
+            </div>
+            <div class="checkbox-item">
+              <input type="checkbox" id="preto" name="cor" value="Preto" />
+              <label for="preto">Preto</label>
+            </div>
+            <div class="checkbox-item">
+              <input
+                type="checkbox"
+                id="vermelho"
+                name="cor"
+                value="Vermelho"
+              />
+              <label for="vermelho">Vermelho</label>
+            </div>
+            <div class="checkbox-item">
+              <input type="checkbox" id="rosa" name="cor" value="Rosa" />
+              <label for="rosa">Rosa</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="campo">
+          <label for="experiencia"
+            ><strong>Conte sua expectativa com o filme:</strong></label
+          >
+          <textarea id="experiencia" name="experiencia" rows="6"></textarea>
+        </div>
+
+        <button type="submit" class="botao">Cadastrar</button>
+        </form>
+      </form>
+    </div>
+
+    <footer>
+      <img style="object-fit: contain" id="logo" src="img/logo-batman-footer.jfif" />
+      <span>Todos os direitos reservados ©</span>
+      <span>Desenvolvido por: Ana Karoline Ribeiro.</span>
+      <!-- <nav class="footer-navigation">
+        <ul class="foorer-list">
+          <a href="./index.html">
+            <li>Home</li>
+          </a>
+          <a href="./contato.html">
+            <li>Contato</li>
+          </a>
+          <a href="./fotos.Html">
+            <li>Fotos</li>
+          </a>
+          <a href="./comentarios.html">
+            <li>Comentários</li>
+          </a>
+          <a href="./Cadastro-de-ingressos.html">
+            <li>Compra de ingressos</li>
+          </a>
+        </ul>
+      </nav> -->
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  height: 112px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 19px;
+  transition: 0.5s;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+li:hover {
+  color: #d21617;
+}
+
+#logo {
+  width: 150px;
+  height: auto;
+}
+
+body {
+  background-color: black;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: 1em;
+  color: #ffff;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Container principal do formulário */
+.form-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+/* Títulos */
+#titulo {
+  text-align: center;
+  color: red;
+  margin-bottom: 1rem;
+}
+
+#subtitulo {
+  text-align: center;
+  color: antiquewhite;
+  margin-bottom: 2rem;
+}
+
+.checkbox-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+  background-color: black;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: black;
+}
+
+.checkbox-item input[type="checkbox"] {
+  width: auto;
+  margin: 0;
+  cursor: pointer;
+  background-color: #333;
+}
+
+.checkbox-item label {
+  color: white;
+  cursor: pointer;
+  background-color: black;
+}
+
+/* Para quando o checkbox estiver marcado */
+.checkbox-item input[type="checkbox"]:checked + label {
+  color: #d21617;
+}
+
+/*  inputs */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 1rem;
+  background-color: #333;
+  border: 1px solid #666;
+  color: white;
+  border-radius: 4px;
+}
+
+/* checkbox */
+.checkbox-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #d21617;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+/*footer */
+footer {
+  margin-top: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer img {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+footer span {
+  display: block;
+  margin: 0.5rem 0;
+}
